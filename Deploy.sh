@@ -1,3 +1,4 @@
 #! /bin/bash
 
-echo "Deploying Build : %date% : %time%"
+dt=$(date '+%d/%m/%Y %H:%M:%S');
+echo "Depoly Build: $dt"

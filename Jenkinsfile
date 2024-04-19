@@ -16,7 +16,7 @@ pipeline {
         stage('Run Tests') {
             parallel {
             //    stage('Test On Windows') {
-		/    agent {
+		//    agent {
                  //       label "principal"
                     }
                    // steps {

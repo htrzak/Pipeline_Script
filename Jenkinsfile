@@ -15,17 +15,17 @@ pipeline {
 	
         stage('Run Tests') {
             parallel {
-                stage('Test On Windows') {
-		    agent {
-                        label "principal"
+            //    stage('Test On Windows') {
+		/    agent {
+                 //       label "principal"
                     }
-                    steps {
-			sleep 4
+                   // steps {
+			//sleep 4
 			//bat "java -jar JavaSimple.jar"
-                        echo "Task1 on Parallel"
-                    }
+                        //echo "Task1 on Parallel"
+                    //}
                     
-                }
+                //}
                 stage('Test On Master') {
                     agent {
                         label "mock"

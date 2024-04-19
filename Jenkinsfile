@@ -21,7 +21,7 @@ pipeline {
                     }
                     steps {
 			sleep 4
-			bat "java -jar JavaSimple.jar"
+			//bat "java -jar JavaSimple.jar"
                         echo "Task1 on Parallel"
                     }
                     

@@ -3,14 +3,14 @@ pipeline {
 	agent any
     stages {
 	
-	stage('Non-Parallel Stage') {
-	    agent {
-                        label "principal"
-                }
-        steps {
-                echo 'This stage will be executed firs'
-                }
-        }
+	//stage('Non-Parallel Stage') {
+	  //  agent {
+            //            label "principal"
+              //  }
+       // steps {
+         //       echo 'This stage will be executed firs'
+             //   }
+        //}
 
 	
         stage('Run Tests') {
